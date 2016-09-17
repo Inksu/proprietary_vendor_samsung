@@ -23,8 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trltetmo/proprietary/lib/libbluetooth_jni.so:system/lib/libbluetooth_jni.so \
     vendor/samsung/trltetmo/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/samsung/trltetmo/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
-    vendor/samsung/trltetmo/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-    vendor/samsung/trltetmo/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/trltetmo/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/trltetmo/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/trltetmo/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -47,12 +45,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trltetmo/proprietary/bin/qcks:system/bin/qcks \
     vendor/samsung/trltetmo/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/trltetmo/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/samsung/trltetmo/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/trltetmo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/trltetmo/proprietary/bin/rmnetcli:system/bin/rmnetcli \
-    vendor/samsung/trltetmo/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/trltetmo/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/trltetmo/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/samsung/trltetmo/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/trltetmo/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/trltetmo/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so
+    vendor/samsung/trltetmo/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/samsung/trltetmo/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/samsung/trltetmo/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+    vendor/samsung/trltetmo/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/samsung/trltetmo/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/samsung/trltetmo/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/samsung/trltetmo/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/samsung/trltetmo/proprietary/vendor/lib/libmdmcutback.so:system/vendor/lib/libmdmcutback.so \
+    vendor/samsung/trltetmo/proprietary/vendor/lib/libqmimotext.so:system/vendor/lib/libqmimotext.so \
+    vendor/samsung/trltetmo/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/samsung/trltetmo/proprietary/vendor/lib/libmotext_inf.so:system/vendor/lib/libmotext_inf.so \
+    vendor/samsung/trltetmo/proprietary/vendor/lib/librmnetctl.so:system/vendor/lib/librmnetctl.so \
+    vendor/samsung/trltetmo/proprietary/vendor/lib/libsysutils_local.so:system/vendor/lib/libsysutils_local.so
